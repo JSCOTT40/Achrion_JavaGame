@@ -68,6 +68,6 @@ Feel free to fork the repository, make changes, and submit pull requests. We wel
 
 # Acknowledgments
 
-The majority of the sprites and Assests were taken from: [Itch.io.](https://itch.io/game-assets/free/tag-16-bit)
-[\nRyiSnow](https://www.youtube.com/@RyiSnow) was extreamly helpful for some of the more difficult areas of the Design and Implemantion. 
+The majority of the sprites and Assests were taken from: [Itch.io.](https://itch.io/game-assets/free/tag-16-bit) /n \n
+[RyiSnow](https://www.youtube.com/@RyiSnow) was extreamly helpful for some of the more difficult areas of the Design and Implemantion. 
 
