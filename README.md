@@ -28,11 +28,11 @@ Pick up objects such as keys by moving near them and interacting.
 Pause the game by pressing the Escape key.
 
 # Game States
-TITLE_STATE: The game is in the title screen (not implemented in this version).
-PLAY_STATE: The game is being played, and the player can move around.
-PAUSE_STATE: The game is paused, and you can resume by pressing a key.
-DIALOGUE_STATE: The player is interacting with an NPC, and dialogue is shown.
-INVENTORY_STATE: The player can view their collected items (not implemented in this version).
+- TITLE_STATE: The game is in the title screen (not implemented in this version).
+- PLAY_STATE: The game is being played, and the player can move around.
+- PAUSE_STATE: The game is paused, and you can resume by pressing a key.
+- DIALOGUE_STATE: The player is interacting with an NPC, and dialogue is shown.
+- INVENTORY_STATE: The player can view their collected items (to be Implemented in a later version).
 
 # File Structure
 ```bash
@@ -48,16 +48,26 @@ src/
 ├── Entities/
 │   ├── Entity.java             # Base class for all entities in the game.
 │   ├── Player.java             # Player class with movement and interaction logic.
-│   └── NPC.java                # NPC class with dialogue and interaction.
+│   └── NPC_Goblin.java         # NPC class with dialogue and interaction.
 ├── objects/
+│   ├── KeyObj.java             # Key Class for specific instance of object for player. 
 │   └── Superobject.java        # Class for objects that the player can interact with.
 ├── tiles/
+│   ├── Tile.java               # Template class for all Tiles. 
 │   └── TileManager.java        # Handles the drawing of tiles in the world.
-└── Assets/
-    └── Player1Frames/          # Contains player sprite images.
+└── PlayerFrames/
+    ├── AreaTiles/              # Contains images for tiles. 
+    ├── Player1Frames           # Contains images for entities.
+    ├── Maps/                   # Contains map templates. 
+    ├── objects/                # Contains Images for objects. 
+    └── Sounds/                 # Contains all sounds assests.
 ```
-Contributing
+# Contributing
 Feel free to fork the repository, make changes, and submit pull requests. We welcome any improvements, bug fixes, or feature suggestions!
 
 
-Acknowledgments
+# Acknowledgments
+
+The majority of the sprites and Assests were taken from: [Itch.io.](https://itch.io/game-assets/free/tag-16-bit)
+[RyiSnow](https://www.youtube.com/@RyiSnow) was extreamly helpful for some of the more difficult areas of the Design and Implemantion. 
+
