@@ -35,7 +35,7 @@ DIALOGUE_STATE: The player is interacting with an NPC, and dialogue is shown.
 INVENTORY_STATE: The player can view their collected items (not implemented in this version).
 
 # File Structure
-bash```
+```bash
 src/
 ├── Main/
 │   ├── GamePanel.java          # Main game logic and rendering.
