@@ -35,7 +35,7 @@ DIALOGUE_STATE: The player is interacting with an NPC, and dialogue is shown.
 INVENTORY_STATE: The player can view their collected items (not implemented in this version).
 
 # File Structure
-
+bash```
 src/
 ├── Main/
 │   ├── GamePanel.java          # Main game logic and rendering.
@@ -55,10 +55,9 @@ src/
 │   └── TileManager.java        # Handles the drawing of tiles in the world.
 └── Assets/
     └── Player1Frames/          # Contains player sprite images.
+```
 Contributing
 Feel free to fork the repository, make changes, and submit pull requests. We welcome any improvements, bug fixes, or feature suggestions!
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
